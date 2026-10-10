@@ -1,0 +1,30 @@
+name: nlp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers
+      - datasets
+      - tokenizers
+      - accelerate
+      - evaluate
+      - sentencepiece
+      - nltk
+      - spacy
+      - gensim
+      - sentence-transformers
